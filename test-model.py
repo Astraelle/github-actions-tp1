@@ -1,4 +1,5 @@
 from model import predict_sentiment
+
 def test_predict_positive():
     assert predict_sentiment("I am happy today") == "positive"
 def test_predict_negative():
